@@ -1,12 +1,15 @@
 /* pages/index/index.wxss */
-.heae-bg>image{
+.head-bg{
+  width: 100%;
+}
+.head-bg>image{
   display: block;
   width: 100%;
 }
 .query-form{
   display: block;
-  margin: -16px auto 0;
-  padding: 0 30rpx;
+  margin: -25rpx auto 0;
+  padding: 0 25rpx;
   width: 85%;
   background: #fff;
   border-radius: 5px;
@@ -16,13 +19,13 @@
 }
 .city-row>input{
   flex: 1;
-  padding: 10px;
+  padding: 20rpx;
   border-bottom: 1px solid #efefef;
 }
 .city-row>image{
   display: block;
-  margin: 0 20px;
-  padding: 18px 0;
+  margin: 0 25rpx;
+  padding: 38rpx 0;
   width: 30px;
   height: 14px;
 }
@@ -35,7 +38,7 @@
 }
 .time-row input{
   display: inline-block;
-  padding: 8px 0;
+  padding: 15rpx 0;
   width: 50%;
   font-size: 12px;
 }
@@ -44,9 +47,9 @@
 }
 .submit-btn>button{
   background: linear-gradient(to right,#38d0ff,#018afe);
-  margin: 10px 0 0 -26rpx;
-  padding: 6px 0;
-  width: 108.9%;
+  margin: 15rpx 0 0 -22rpx;
+  padding: 6rpx 0;
+  width: 107%;
   border-radius: 0 0 5px 5px;
   font-size: 12px;
   color: #fff;
@@ -57,21 +60,15 @@
 .tab-row{
   display: flex;
   justify-content: space-around;
-  margin-top: 10px;
-  padding: 10px;
+  margin-top: 20rpx;
+  padding: 20rpx;
   width: 100%;
   background: #fff;
 }
 .tab-list>image{
   display: block;
-  margin-bottom: 6px;
+  margin: 0 auto 12rpx;
   width: 28px;
-}
-.tab-list:nth-child(1)>image{
-  padding-left: 5px;
-}
-.tab-list:nth-child(4)>image{
-  padding-left: 5px;
 }
 .tab-list>text{
   font-size: 10px;
@@ -79,13 +76,14 @@
 .tips-row{
   display: flex;
   align-items: center;
-  margin-top: 10px;
-  padding: 14px;
+  margin-top: 20rpx;
+  padding: 20rpx 40rpx;
+  width: 100%;
   background: #fff;
 }
 .tips-row>image{
   display: block;
-  margin-right: 15px;
+  margin-right: 28rpx;
   width: 40px;
 }
 .tips-row>text{
@@ -94,13 +92,13 @@
 }
 .other-row{
   display: flex;
-  margin-top: 10px;
-  padding: 6px 0;
+  margin-top: 20rpx;
+  padding: 10rpx 0;
   width: 100%;
   background: #fff;
 }
 .other-list{
-  padding: 2px 10px;
+  padding: 10rpx 20rpx;
   width: 50%;
 }
 .other-list:nth-child(1){
@@ -110,15 +108,16 @@
   border-left: 1px solid #efefef;
 }
 .list-top>image{
+  padding-left: 20rpx;
   width: 15px;
 }
 .list-top>text{
-  padding-left: 4px;
+  padding-left: 12rpx;
   font-weight: bold;
 }
 .list-content{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .list-content>text{
@@ -131,8 +130,8 @@
 .question-row{
   display: flex;
   flex-wrap: wrap;
-  margin: 10px 0;
-  padding-top: 4px;
+  margin: 20rpx 0;
+  padding-top: 10rpx;
   width: 100%;
   background: #fff;
 }
@@ -140,7 +139,7 @@
   font-size: 10px;
 }
 .question-row>view{
-  padding: 7px 10px;
+  padding: 15rpx 28rpx;
   width: 100%;
 }
 .question-row>view:nth-child(1){
