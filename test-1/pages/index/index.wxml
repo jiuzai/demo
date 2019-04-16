@@ -5,13 +5,13 @@
   </view>
   <form class='query-form'>
     <view class='city-row'>
-      <input />
+      <input disabled value='北京' />
       <image src='/images/tab-01.png'></image>
-      <input />
+      <input disabled value='上海' />
     </view>
     <view class='time-row'>
       <picker mode='date'>
-        <input disabled value='time' />
+        <input disabled value='04月17日 星期三(明天)' />
         <input disabled value='出发日期' />
       </picker>
     </view>
