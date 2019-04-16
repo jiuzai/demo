@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#018afe",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "12306出行",
+    "backgroundColor": "#f0f0f0",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

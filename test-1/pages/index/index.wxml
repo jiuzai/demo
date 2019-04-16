@@ -1,0 +1,77 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+  <view class='head-bg'>
+    <image src='/images/banner.png' mode='widthFix'></image>
+  </view>
+  <form class='query-form'>
+    <view class='city-row'>
+      <input />
+      <image src='/images/tab-01.png'></image>
+      <input />
+    </view>
+    <view class='time-row'>
+      <picker mode='date'>
+        <input disabled value='time' />
+        <input disabled value='出发日期' />
+      </picker>
+    </view>
+    <view class='submit-btn'>
+      <button form-type='submit'>
+        余票快速查询
+      </button>
+    </view>
+  </form>
+  <view class='tab-row'>
+    <view class='tab-list'>
+      <image src='/images/tab-02.png' mode='widthFix'></image>
+      <text>余票查询</text>
+    </view>
+    <view class='tab-list'>
+      <image src='/images/tab-03.png' mode='widthFix'></image>
+      <text>时刻表</text>
+    </view>
+    <view class='tab-list'>
+      <image src='/images/tab-04.png' mode='widthFix'></image>
+      <text>正晚点</text>
+    </view>
+    <view class='tab-list'>
+      <image src='/images/tab-05.png' mode='widthFix'></image>
+      <text>车站大屏</text>
+    </view>
+  </view>
+  <view class='tips-row'>
+    <image src='/images/tips.png' mode='widthFix'></image>
+    <text>2019.3.10-4.9，新增兰州西-徐州G4292次，徐州-兰州西G4291次。>></text>
+  </view>
+  <view class='other-row'>
+    <view class='other-list'>
+      <view class='list-top'>
+        <image src='/images/mall.png' mode='widthFix'></image>
+        <text>商城</text>
+      </view>
+      <view class='list-content'>
+        <text>鲜果特产，优质放心</text>
+        <image src='/images/shop.png' mode='widthFix'></image>
+      </view>
+    </view>
+    <view class='other-list'>
+      <view class='list-top'>
+        <image src='/images/community.png' mode='widthFix'></image>
+        <text>社区</text>
+      </view>
+      <view class='list-content'>
+        <text>官方公告，在线求助</text>
+        <image src='/images/web.png' mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+  <view class='question-row'>
+    <view>
+      <text>常见问题</text>
+      <text>查看更多</text>
+    </view>
+    <view>
+      <text>Q：在出站检票前丢失实名制车票，怎么办？</text>
+    </view>
+  </view>
+</view>
