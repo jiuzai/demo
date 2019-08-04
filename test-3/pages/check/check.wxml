@@ -1,0 +1,21 @@
+<!--pages/check/check.wxml-->
+<view class='container'>
+  <form bindsubmit='getCode'>
+    <view class='transfer'>
+      <view class='send_code'>
+        <view class='send_mobile'>
+          <input placeholder='请输入手机号' bindinput='getPhoneValue' placeholder-style='color:#999;' />
+        </view>
+        <view class='send_code_btn'>
+          <button form-type="{{submit}}">{{get_code}}</button>
+        </view>
+      </view>
+      <view class='input_code'>
+        <input placeholder='短信验证码' placeholder-style='color:#999;' value='{{code}}' />
+      </view>
+      <view>
+        <button class='{{btn}}' bindtap='{{bindTapView}}'>{{next_step}}</button>
+      </view>
+    </view>
+  </form>
+</view>

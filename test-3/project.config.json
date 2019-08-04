@@ -9,12 +9,13 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false
+		"autoAudits": false,
+		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.6.5",
+	"libVersion": "2.6.6",
 	"appid": "wx0f917a0e1e7b0193",
-	"projectname": "miniprogram-test-2",
+	"projectname": "test-3",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

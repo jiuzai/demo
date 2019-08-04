@@ -1,0 +1,40 @@
+/* pages/check/check.wxss */
+.container{
+  font-size: 16px;
+}
+.transfer>view{
+  width: 560rpx;
+  margin: 30rpx auto 0;
+}
+.send_code{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.send_code .send_mobile{
+  width: 320rpx;
+  border: 1px solid #ddd;
+}
+.send_code .send_mobile>input{
+  padding-left: 5px;
+  height: 30px;
+}
+.send_code .send_code_btn>button{
+  width: 210rpx;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.input_code>input{
+  padding-left: 5px;
+  height: 30px;
+  border: 1px solid #ddd;
+}
+.next_btn{
+  color: #999;
+  font-size: 18px;
+}
+.btn{
+  background-color: #538cf5;
+  color: #fff;
+}

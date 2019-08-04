@@ -1,0 +1,7 @@
+<!--pages/test/test2.wxml-->
+<view>
+  <image class='bg' src='/images/banner.png'></image>
+  <text>
+    hello {{ msg }}
+  </text>
+</view>

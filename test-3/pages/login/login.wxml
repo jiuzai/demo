@@ -1,0 +1,31 @@
+<!--pages/login/login.wxml-->
+<view class='contanier'>
+  <form bindsubmit='formSubmit'>
+    <view class='transfer'>
+      <view class='text_row'>
+        <view>用户账号</view>
+        <view>
+          <input name='mobile' placeholder='手机号' placeholder-style='color:#999;' value='{{mobile}}' />
+        </view>
+      </view>
+      <view class='text_row'>
+        <view>登录密码</view>
+        <view>
+          <input name='password' placeholder='请输入密码' placeholder-style='color:#999;' value='{{password}}' password='{{isPass}}'   />
+        </view>
+        <cover-view>
+          <cover-image src='/images/see.jpg' bindtap="showPwdblur"></cover-image>
+        </cover-view>
+      </view>
+      <checkbox-group name='savePass'>
+        <checkbox style='color:#999;' value="记住密码" checked="{{onCheck}}">记住密码</checkbox>
+      </checkbox-group>
+      <view class='login_btn'>
+        <button form-type="{{submit}}">{{login}}</button>
+      </view>
+      <view bindtap='bindTapView' class='sign_text'>
+        <text>用户注册</text>
+      </view>
+    </view>
+  </form>
+</view>

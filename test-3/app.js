@@ -1,4 +1,3 @@
-//入口文件
 App({
   onLaunch(options) {
     // Do something initial when launch.

@@ -1,0 +1,16 @@
+<!--pages/register/register.wxml-->
+<view class='container'>
+  <form bindsubmit='formSubmit'>
+    <view class='transfer'>
+      <view class='input_pwd'>
+        <input name='password' placeholder='请设置6-20位密码' placeholder-style='color:#999;' bindinput='getPwdValue' value='{{password}}' password='{{isPass}}' />
+      </view>
+      <view class='confirm_pwd'>
+        <input placeholder='再次输入密码' placeholder-style='color:#999;' bindinput='getConPwdValue' password='{{isPass}}' />
+      </view>
+      <view class='register_btn'>
+        <button form-type="{{submit}}">{{registe}}</button>
+      </view>
+    </view>
+  </form>
+</view>

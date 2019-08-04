@@ -1,0 +1,26 @@
+/* pages/register/register.wxss */
+.container{
+  font-size: 16px;
+}
+.transfer>view{
+  width: 560rpx;
+  margin: 30rpx auto 0;
+}
+.input_pwd{
+  width: 320rpx;
+  border: 1px solid #ddd;
+}
+.input_pwd>input{
+  padding-left: 5px;
+  height: 30px;
+}
+.confirm_pwd>input{
+  padding-left: 5px;
+  height: 30px;
+  border: 1px solid #ddd;
+}
+.register_btn>button{
+  background-color: #538cf5;
+  color: #fff;
+  font-size: 18px;
+}
